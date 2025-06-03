@@ -1,0 +1,21 @@
+.friendListItem {
+  display: inline-block;
+  border: 2px solid rgb(43, 44, 43);
+  border-radius: 8px;
+  text-align: center;
+  padding: 24px 12px;
+}
+
+.itemTitle {
+  font-size: 24px;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+
+.greenText {
+  color: green;
+}
+
+.redText {
+  color: red;
+}

@@ -1,0 +1,53 @@
+.profile {
+  display: inline-block;
+  border: 3px solid rgb(43, 44, 43);
+  border-radius: 24px;
+  text-align: center;
+  padding-top: 24px;
+  background-color: rgb(240, 240, 240);
+  overflow: hidden;
+  max-width: 840px;
+
+  font-size: 48px;
+  color: gray;
+  margin-bottom: 48px;
+}
+
+.userImage {
+  border-radius: 50%;
+  background-color: rgb(61, 60, 60);
+  width: 264px;
+  margin: auto;
+  margin-bottom: 32px;
+}
+
+.userName {
+  font-size: 64px;
+  font-weight: 700;
+  color: rgb(61, 60, 60);
+  margin-bottom: 42px;
+}
+
+.userDescription {
+  margin-bottom: 32px;
+}
+
+.userPropsList {
+  display: flex;
+  background-color: rgb(192, 192, 192);
+  color: black;
+}
+
+.propsListItem {
+  padding: 24px 24px;
+  width: calc(100% / 3);
+  border-top: 3px solid grey;
+}
+
+.propsListItem:not(:nth-child(3)) {
+  border-right: 3px solid grey;
+}
+
+.boldText {
+  font-weight: 600;
+}
